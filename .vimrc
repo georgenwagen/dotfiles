@@ -1,4 +1,8 @@
+" enable mouse actions
 set mouse=a
+
+" enable going past last character in a line
+set virtualedit=onemore
 
 " Auto-close brackets and quotes
 inoremap ( ()<Left>
