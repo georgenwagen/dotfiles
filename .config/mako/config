@@ -1,0 +1,8 @@
+background-color=#1e1e2e
+border-color=#94e2d5
+border-radius=10,10,10
+default-timeout=7000
+
+# Color description text
+markup=1
+format=<b>%s</b>\n<span color="#a6adc8">%b</span>

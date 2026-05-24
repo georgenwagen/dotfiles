@@ -1,0 +1,23 @@
+[mgr]
+ratio = [2, 7, 4]              # left panel, main, right (preview)
+sort_by = "natural"
+sort_sensitive = false
+sort_reverse = false
+sort_dir_first = true
+linemode = "size"
+show_hidden = true
+show_symlink = true
+
+[preview]
+tab_size = 2
+max_width = 600
+max_height = 900
+cache_dir = ""
+image_filter = "triangle"
+image_quality = 75
+
+[opener]
+edit = [
+    { run = 'vim "$@"', desc = "Edit in nvim", block = true },
+    { run = 'nano "$@"', desc = "Edit in nano", block = true },
+]

@@ -1,0 +1,9 @@
+{
+    "network": {
+        "format-wifi": " {essid}",
+        "format-ethernet": " {ipaddr}",
+        "format-disconnected": "󰌙 Disconnected",
+        "tooltip-format": "{ifname}: {ipaddr}\n{essid} ({signalStrength}%)\nUp: {bandwidthUpBits}  Down: {bandwidthDownBits}",
+        "on-click": "kitty nmtui"
+    }
+}
